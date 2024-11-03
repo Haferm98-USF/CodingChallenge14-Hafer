@@ -33,7 +33,14 @@ try {
 
 catch (error) 
 {
-    console.error('Error: Something went Wrong')
+    console.error('Error: Something went Wrong');
+}
+
+// Task 4: Use finally to Ensure Cleanup
+
+finally
+{
+    console.log('Cleaning Up');
 }
 
 }
